@@ -22,4 +22,9 @@ public class NumberGeneratorImpl implements NumberGenerator {
     public int generate(){
         return generationStrategy.next();
     }
+
+    @Override
+    public String toString() {
+        return this.generationStrategy.getClass().getSimpleName();
+    }
 }

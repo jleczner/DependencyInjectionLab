@@ -6,7 +6,7 @@ import javax.inject.Named;
 
 
 @Service
-@Named("oddnumbers")
+@Named("oddNumbers")
 public class OddGenerationStrategy implements GenerationStrategy{
 
     private int nextNum = 0;

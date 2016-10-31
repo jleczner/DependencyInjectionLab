@@ -6,7 +6,7 @@ import javax.inject.Named;
 
 
 @Service
-@Named("naturalnumbers")
+@Named("naturalNumbers")
 public class SequentialGenerationStrategy implements GenerationStrategy{
 
     private int nextNum = 0;
